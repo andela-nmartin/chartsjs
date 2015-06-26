@@ -1,0 +1,9 @@
+{
+  "firebase": "chartsjs",
+  "public": "C:\\Users\\user\\projects\\chartsjs",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

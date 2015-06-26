@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html onload>
+	<head>
+		<title>Data to Charts</title>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+	</head>
+
+	<body>
+		<div class="headerDiv">Charts Application</div>
+		<div id="arrayChoice">
+			<p>Please input numbers separated by spaces</p>
+			<input type="text" id="sevenElement"></input><br/>
+			<input type="button" value="PUSH" class="coolbutton" onclick="receiveInput()"></input>
+		</div>
+		<div id="div0"><strong>See Charts</strong><br/>
+			<div class="circleDiv" onclick="drawPieChart()">Pie Chart</div>
+			<div class="circleDiv" onclick="drawBarChart()">Bar Chart</div>
+			<div class="circleDiv" onclick="drawHistogram()">Histogram</div>
+			<div class="circleDiv" onclick="drawLineChart()">Line Chart</div>
+		</div>
+		<div id="div1" style="width:400px;height:300px;border-left:1px solid;border-bottom:1px solid; "></div>
+		<div id="div3"></div>
+		<script type="text/javascript" src="scripts/scripts.js"></script>
+	</body>
+
+</html>
